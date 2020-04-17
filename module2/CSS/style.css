@@ -9,18 +9,29 @@ body
 	background-color: brown;
 }
 
+
+
 h1
 {
+	
 	text-align:center;
 	font-style: italic;
 	color:#FF00FF;
 	font-size: 1.75em;
+	margin-top:2%;
+	margin-bottom:2%
+	
 }
  
 
 section
 {
-	margin :10px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	margin-left:2%;
+	margin-right:2%;
+	
+	
 	border:1px solid black;
 	padding: 0px;
 	background-color:#F0FFFF;
@@ -85,8 +96,8 @@ background-color: #ADFF2F;
 	{
 		float:left;
 		height:100%;
-		width:31%;
-
+		width:29%;
+		
 	}
 
 }
@@ -98,8 +109,15 @@ background-color: #ADFF2F;
 	{
 		float:left;
 		height:100%;
-		width:47%;
-
+		width:46%;
+		
+	}
+	.col-md-12
+	{
+		float:left;
+		height: 100%;
+		width:96%;
+		
 	}
 }
 
@@ -109,7 +127,8 @@ background-color: #ADFF2F;
 	{
 		float:left;
 		height:100%;
-		width:100%;
+		width:96%;
+		
 	
 	}
 }
